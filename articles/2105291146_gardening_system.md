@@ -395,8 +395,8 @@ WantedBy=multi-user.target
 後は、`systemctl`コマンドを使うことで、プログラムがサービスとして起動してくれます。
 
 ``` bash
-$ sudo systemctl enable sysd-check.service
-$ sudo systemctl start sysd-check.service
+$ sudo systemctl enable gardening-system.service
+$ sudo systemctl start gardening-system.service
 ```
 
 これで、Raspberry Piが再起動しても自動的にサービスが起動してくれます。便利。
