@@ -368,7 +368,7 @@ get_sensor_info関数はセンサからデータを読み取り、Ambientにデ�
 systemdにサービスを登録するには、serviceファイルの作成が必要になるので、vim等のエディタを使って以下のフォルダにserviceファイルを作成します。
 
 ``` bash
-sudo vim /etc/systemd/system/gardening-system.service
+$ sudo vim /etc/systemd/system/gardening-system.service
 ```
 
 今回は、「gardening-system」というserviceファイルにしていますが、自分でわかりやすい名前をつけてください。
