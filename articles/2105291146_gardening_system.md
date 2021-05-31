@@ -377,7 +377,7 @@ $ sudo vim /etc/systemd/system/gardening-system.service
 
 ``` ini
 [Unit]
-Description=systemd-test daemon
+Description=gardening-system daemon
 [Service]
 ExecStart=/usr/bin/python3 /home/pi/gardening_system.py
 Restart=no
