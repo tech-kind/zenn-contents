@@ -16,7 +16,7 @@ published: true
 # GraphQL vs RESTful
 
 GraphQLはWeb APIの一種ですが、他の代表的なAPIとしてRESTful API（以下、REST）があります。
-GraphQLとRESTの違いは、他の記事でもよく紹介されているので、以下のような記事を参考にされるとよいと思います。
+GraphQLとRESTの違いは、他の記事でもよく紹介されているので、以下のような記事を参考にされるとよいです。
 
 https://qiita.com/NagaokaKenichi/items/a4991eee26e2f988c6ec
 
@@ -46,14 +46,14 @@ GraphQLの利点は、
 プログラムを書く前に、まずはGitHubのアクセストークンを取得しておきます。
 GraphQL APIを叩く際の認証キーとして必要になります。
 
-以下のURLにアクセスすると、新しいトークンを生成できます。
+以下のURLにアクセスして、新しいトークンを生成しましょう。
 
 https://github.com/settings/tokens
 
 「Generate new token」ボタンを押すと、スコープを選択する画面が表示されます。
 これは生成するアクセストークンにどこまでの権限を持たせるかの設定になります。
 
-今回はリポジトリへのアクセス権限さえあればよいので「repo」にチェックを入れて、トークンに好きな名前をつけておきます。
+今回はリポジトリへのアクセス権限さえあればよいので「repo」にチェックを入れて、トークンに好きな名前をつけます。
 あとは、「Generate token」ボタンを押せば、新しいトークンが生成されます。
 生成されたトークン文字列はコピーしておきましょう。
 
@@ -62,11 +62,11 @@ https://github.com/settings/tokens
 生成されたトークン文字列はローカルのPCに保存しておく必要がありますが、
 セキュリティの観点からメモ帳やプログラムのコード上に直接書くのは良くないので、PCの環境変数に追加しておきます。
 
-ユーザ環境変数に「GitHubKey」変数を追加し、値は先ほどコピーした文字列を入れておきます。
+ユーザ環境変数に「GitHubKey」変数を追加し、値は先ほどコピーした文字列を入れます。
 
 ![](https://storage.googleapis.com/zenn-user-upload/7aea05ad07f771f52139436e.jpg)
 
-Windowsで環境変数の編集をする際は、「Rapid Environment Editor」のようなツールを使うと編集が楽になります。
+Windowsで環境変数の編集をする際は、「Rapid Environment Editor」のようなツールを使うと編集が楽になりますよ！
 
 https://www.rapidee.com/ja/about
 
@@ -80,7 +80,7 @@ https://docs.github.com/en/graphql/overview/explorer
 クエリを書いて、実行ボタンを押すと、レスポンスが横に出力されます。
 ![](https://storage.googleapis.com/zenn-user-upload/ab6268ed8599aeb7d514e104.jpg)
 
-この記事では以下のクエリを使って実装を行っていくことにします。
+この記事では以下のクエリを使って実装を行っていきます。
 
 ``` graphql
 query { 
