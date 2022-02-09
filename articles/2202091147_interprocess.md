@@ -3,7 +3,7 @@ title: "C#でROSっぽい書き方をしてみる"
 emoji: "🌠"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["csharp", "ros", "ros2"]
-published: false
+published: true
 ---
 
 # はじめに
@@ -26,6 +26,7 @@ ROSには、
 あらゆるシステム開発において享受されるべきものだと考えられます。
 
 そこで今回は、C#でROSっぽいコードを書いてみたいと思います。
+（あくまでも、ROSっぽいコードです。）
 
 # 実装
 
