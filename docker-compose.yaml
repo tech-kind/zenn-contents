@@ -22,5 +22,5 @@ services:
   zenn-new-article:
     container_name: zenn-new-article
     image: zenn-new-article:latest
-    command: /bin/bash new-article.sh
+    command: npx zenn new:article
     <<: *template

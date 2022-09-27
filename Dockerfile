@@ -1,4 +1,4 @@
-FROM node:12
+FROM node:14
 LABEL tech-kind <ken_hayakawa@tech-kind.biz>
 
 WORKDIR /workspace
