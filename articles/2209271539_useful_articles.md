@@ -3,7 +3,7 @@ title: "私がよく参考にしているサイトまとめ"
 emoji: "📌"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: [idea]
-published: false
+published: true
 ---
 
 # はじめに
