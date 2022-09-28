@@ -83,6 +83,9 @@ https://qiita.com/megumu-u/items/73b728ad1d381717d731
 * わかりやすいシステム構成図の書き方  
 https://qiita.com/fetaro/items/c8420f5de48f48317391
 
+* なぜエンジニアが作る画面はダサいのか…?「理由」と「対策」を徹底解説【エンジニア向け画面デザイン講座】  
+https://qiita.com/mskmiki/items/544149987475719e417b
+
 # コーディング
 
 ## 名前付け
@@ -174,8 +177,3 @@ https://qiita.com/Akira-Isegawa/items/d7d103900272b3818ea8
 
 * ソフトウェア開発に役立つ　心理学的現象、行動経済学の概念など　15題  
 https://qiita.com/arai-wa/items/4c7629276ced7e933235
-
-## 名言
-
-* 技術系の名言まとめ++  
-https://qiita.com/kkyouhei/items/38ba41fb6b877f160e99
