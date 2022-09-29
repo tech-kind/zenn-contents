@@ -35,6 +35,9 @@ https://qiita.com/nh321/items/051fc2f666261e8ee4f0
 
 ## デザインパターン
 
+* Refactoring.Guru（デザインパターン）  
+https://refactoring.guru/ja/design-patterns
+
 * DESIGN PATTERNS FOR HUMANS!  
 https://github.com/kamranahmedse/design-patterns-for-humans
 
